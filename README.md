@@ -25,7 +25,8 @@ artist_id, name, location, lattitude, longitude
 *time* - timestamps of records in songplays broken down into specific units
 start_time, hour, day, week, month, year, weekday
 
-##Project Template
+
+###Project Template###
 To get started with the project, go to the workspace on the next page, where you'll find the project template. You can work on your project and submit your work through this workspace.
 
 Alternatively, you can download the template files in the Resources tab in the classroom and work on this project on your local computer.
@@ -37,7 +38,7 @@ etl.py is where you'll load data from S3 into staging tables on Redshift and the
 sql_queries.py is where you'll define you SQL statements, which will be imported into the two other files above.
 README.md is where you'll provide discussion on your process and decisions for this ETL pipeline.
 
-###Infrastructure as Code
+###Infrastructure as Code###
 1. import boto3 , json, pandas
 2. update dwh.cfg to include the IAM user
 3. Load DWH parameters from a file
@@ -52,7 +53,7 @@ README.md is where you'll provide discussion on your process and decisions for t
 10. Open incoming tcp port to access cluster endpoint
 11. Connect to cluster using %load_ext sql and connection string
 
-ETL Redshift
+###ETL Redshift###
 1. run %load_ext sql
 2. Get parameters of the created redshift cluster (fill in endpoint and Iam role)
 3. Connect to Redshift Cluster
@@ -61,7 +62,7 @@ ETL Redshift
 6. Drop and Create Tables for non-partitioned data
 7. Load non-partitioned data into the cluster
 
-Creating Tables with Distribution Strategy and No-distribution strategy
+###Creating Tables with Distribution Strategy and No-distribution strategy###
 1. run %load_ext sql
 2. Get parameters of the created redshift cluster (fill in endpoint and Iam role)
 3. Connect to Redshift Cluster
@@ -69,4 +70,4 @@ Creating Tables with Distribution Strategy and No-distribution strategy
 5. Copy Tables from S3 supplying credentials and region to the tables using
         def load tables general function and with copy queries set-up
 6.  Set up List of tables to be loaded
-7.  
+   
