@@ -46,3 +46,22 @@ Infrastructure as Code
 9. Create a Redshift Cluster
 10. Open incoming tcp port to access cluster endpoint
 11. Connect to cluster using %load_ext sql and connection string
+
+ETL Redshift
+1. run %load_ext sql
+2. Get parameters of the created redshift cluster (fill in endpoint and Iam role)
+3. Connect to Redshift Cluster
+4. Drop and Create Tables for partitioned data
+5. Load Partitioned data into cluster using copy command
+6. Drop and Create Tables for non-partitioned data
+7. Load non-partitioned data into the cluster
+
+Creating Tables with Distribution Strategy and No-distribution strategy
+1. run %load_ext sql
+2. Get parameters of the created redshift cluster (fill in endpoint and Iam role)
+3. Connect to Redshift Cluster
+4. Create Tables for the Song and Event
+5. Copy Tables from S3 supplying credentials and region to the tables using
+        def load tables general function and with copy queries set-up
+6.  Set up List of tables to be loaded
+7.  
