@@ -6,7 +6,7 @@ A music streaming startup, Sparkify, has grown their user base and song database
 
 ### Requirements
 ETL Pipeline to extract data from S3, stage in Redshift, and transform the data into a set of dimensional table to allow the analytics team to continue finding insights into what songs the users are listerning to
-![Architecture of S3 Redshift ETL](/images/Udacity DW Redshift.jpg)
+![Architecture of S3 Redshift ETL](https://github.com/code-hy/udacity-cloud-data-warehouse/images/Udacity DW Redshift.jpg)
 
 
 Schema for Song Play Analysis
