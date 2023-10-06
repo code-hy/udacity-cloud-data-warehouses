@@ -10,7 +10,7 @@ ETL Pipeline to extract data from S3, stage in Redshift, and transform the data 
 ![image](https://github.com/code-hy/udacity-cloud-data-warehouses/assets/82032854/e778199b-d0b1-451b-81e8-5cfe0f434395)
 
 Schema for Song Play Analysis
-Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
+Using the song and event datasets, a star schema is created for queries on song play analysis. This includes the following tables.
 
 Fact Table
 
@@ -34,15 +34,13 @@ start_time, hour, day, week, month, year, weekday
 
 ### Project Files
 
-To get started with the project, go to the workspace on the next page, where you'll find the project template. You can work on your project and submit your work through this workspace.
 
+The project includes five files:
 
-
-The projectincludes five files:
-
-* create_table.py is where you'll create your fact and dimension tables for the star schema in Redshift.
+* create_table.py is where creation of staging, fact and dimension tables for the star schema in Redshift.
 * etl.py is where you'll load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
 * sql_queries.py is where you'll define you SQL statements, which will be imported into the two other files above.
+* data_profile.py is where you'll run select queries for count of records 
 * README.md is where you'll provide discussion on your process and decisions for this ETL pipeline.
 
 ### Infrastructure as Code
