@@ -32,12 +32,13 @@ artist_id, name, location, lattitude, longitude
 start_time, hour, day, week, month, year, weekday
 
 
-### Project Template
+### Project Files
+
 To get started with the project, go to the workspace on the next page, where you'll find the project template. You can work on your project and submit your work through this workspace.
 
-Alternatively, you can download the template files in the Resources tab in the classroom and work on this project on your local computer.
 
-The project template includes four files:
+
+The projectincludes five files:
 
 * create_table.py is where you'll create your fact and dimension tables for the star schema in Redshift.
 * etl.py is where you'll load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
