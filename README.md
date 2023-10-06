@@ -1,7 +1,13 @@
-# udacity-cloud-data-warehouses
-# project for creating an etl pipeline in amazon aws
+# Project for Creating an ETL Pipeline in Amazon AWS
 
-## Project Instructions
+## Project Background
+### Introduction
+A music streaming startup, Sparkify, has grown their user base and song database and want to move their processes and data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
+
+### Requirements
+ETL Pipeline to extract data from S3, stage in Redshift, and transform the data into a set of dimensional table to allow the analytics team to continue finding insights into what songs the users are listerning to
+
+
 
 Schema for Song Play Analysis
 Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
