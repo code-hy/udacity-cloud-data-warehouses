@@ -76,3 +76,11 @@ The project includes five files:
         def load tables general function and with copy queries set-up
 6.  Set up List of tables to be loaded
    
+### Run Instructions
+1.  In jupyter workspace, run all cells under setup_role_clients.ipynb in order to set up the roles 
+2.  In jupyter workspace, run all cells under startup_cluster.ipynb to create redshift cluster
+3.  Open up a terminal, and execute the create_tables.py (python create_tables.py)
+4.  In terminal, execute the etl.py (python etl.py)
+5.  In terminal, execute the data_profile.py (python data_profile.py)
+6.  Go to Amazon console to pause the cluster, or delete the cluster if not needed anymore
+   
