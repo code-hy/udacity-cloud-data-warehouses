@@ -82,8 +82,8 @@ The project includes five files:
 ### Run Instructions
 1.  In jupyter workspace, run all cells under setup_role_clients.ipynb in order to set up the roles 
 2.  In jupyter workspace, run all cells under startup_cluster.ipynb to create redshift cluster
-3.  Open up a terminal, and execute the create_tables.py (python create_tables.py)
-4.  In terminal, execute the etl.py (python etl.py)
+3.  Open up a terminal, and execute the create_tables.py (python create_tables.py) -> this will create all the staging,fact and dimension tables
+4.  In terminal, execute the etl.py (python etl.py) -> this will populate the staging tables from s3, insert into the fact table from staging tables, and insert into dimension tables from staging tables
 5.  In terminal, execute the data_profile.py (python data_profile.py)
 6.  Go to Amazon console to pause the cluster, or delete the cluster if not needed anymore
    
