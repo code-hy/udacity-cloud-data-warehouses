@@ -12,6 +12,9 @@ ETL Pipeline to extract data from S3, stage in Redshift, and transform the data 
 Schema for Song Play Analysis
 Using the song and event datasets, a star schema is created for queries on song play analysis. This includes the following tables.
 
+![image](https://github.com/code-hy/udacity-cloud-data-warehouses/assets/82032854/05dd82c6-acfb-4dd3-8a6e-b73806d247db)
+
+
 Fact Table
 
 *songplays* - records in event data associated with song plays i.e. records with page NextSong
