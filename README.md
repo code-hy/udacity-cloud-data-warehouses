@@ -46,7 +46,7 @@ The project includes five files:
 * data_profile.py is where you'll run select queries for count of records 
 * README.md is where you'll provide discussion on your process and decisions for this ETL pipeline.
 
-### Infrastructure as Code
+### Infrastructure as Code (setup_role_clients.ipynb and startup_cluster.ipynb)
 1. import boto3 , json, pandas
 2. update dwh.cfg to include the IAM user
 3. Load DWH parameters from a file
@@ -61,7 +61,7 @@ The project includes five files:
 10. Open incoming tcp port to access cluster endpoint
 11. Connect to cluster using %load_ext sql and connection string
 
-### ETL Redshift
+### ETL Redshift 
 1. run %load_ext sql
 2. Get parameters of the created redshift cluster (fill in endpoint and Iam role)
 3. Connect to Redshift Cluster
